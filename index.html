@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>NAMA PERUSAHAAN</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/default-theme.css?new">
+    <script src="./assets/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="./assets/css/slick-theme.css">
+    <style>
+        .slick-dots{bottom:36px;max-width: 100%;}
+    </style>
+</head>
+<body class="d-flex h-100 text-dark lfs">
+    
+    <div class="d-flex w-100 h-100 px-0 mx-auto flex-column">
+        <header class="fixed-top bg-white non-holding">
+            <!-- MOBILE HEADER -->
+            <div class="row py-2 header-mobile d-xl-none">
+                <div class="col-7  pl-nav">
+                    <button class="navbar-toggler pe-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="my-1 close"></span>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img class="logo-dark ms-2" src="./assets/images/brand-logo.png" alt="Alia" style="max-height: 40px;">
+                    </a>
+                </div>
+                <div class="col-5  pr-nav text-end">
+                    <div class="py-1">
+                        <a class="btn btn-primary btn-black btn-sm d-xl-none" id="download_alia_mobile" data-toggle="offcanvas" data-target="#_getapp" onclick="mobile_download();" href="#">Download</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-header navbar-collapse d-xl-block collapse" id="navbarCollapse" style>
+                
+                <!-- NAVBAR -->
+                <nav class="navbar nav-primary navbar-expand-xl navbar-white">
+                    <div class="container-fluid px-0">
+                        <a class="navbar-brand d-none d-xl-block py-1" href="index.html">
+                            <img class="logo-dark mt-1" src="./assets/images/brand-logo.png" alt="Alia" style="max-height: 40px;">
+                        </a>
+                        <!-- MOBILE -->
+                        <div class="col-12 head-prime">
+                            <div class="row d-flex d-xl-none nav-scroll scrollbar-hide flex-nowrap overflow-auto justify-content-md-center mb-3">
+                                <div class="w-auto  text-center ">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Menu 1</a>
+                                </div>
+                                <div class="w-auto  text-center ">
+                                    <a class="nav-link " aria-current="page" href="index.html">Menu 2</a>
+                                </div>
+                                <div class="w-auto  text-center ">
+                                    <a class="nav-link " aria-current="page" href="index.html">Menu 3</a>
+                                </div>
+                                <div class="w-auto  text-center ">
+                                    <a class="nav-link " aria-current="page" href="index.html">Menu 4</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- DEKSTOP -->
+                        <div class="navbar-nav navbar-nav-unit align-items-center">
+                            <ul class="navbar-nav navbar-nav-unit d-none d-xl-flex me-auto w-nav mb-0">
+                                <li class="nav-item">
+                                    <a class="nav-link alia active py-3 py-lg-2" href="index.html">Menu 1</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link syariah  py-3 py-lg-2" href="index.html">Menu 2</a>
+                                </li>
+                            </ul>
+                            <div class="nav-item d-none d-xl-block">
+                                <a class="nav-link  py-3 py-lg-2" href="index.html">Menu 3</a>
+                            </div>
+                            <form action="index.html" method="get">
+                                <div class="nav-item d-none d-xl-block me-3">
+                                    <input class="form-control search-header" name="keyword" type="text" placeholder="Perlu bantuan?" aria-label="search" value="">
+                                </div>
+                            </form>
+                            <div class="nav-item d-none d-xl-block">
+                                <div class="d-flex">
+                                    <a class="nav-link" href="#">Download APP</a> <a class="nav-link" href="#">Masuk</a>
+                                </div>
+                                <!-- <button class="btn btn-primary w-sm-100" type="button" data-toggle="offcanvas" data-target="#_getapp" onclick="mobile_download();">Download APP</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <!-- SUB NAVBAR -->
+                <nav class="navbar nav-secondary navbar-expand-md navbar-white border-top menu-scroll">
+                    <div class="container-fluid px-0">
+                        <div class="navbar-collapse collapse" id="navbarCollapse">
+                            <ul class="navbar-nav me-auto mb-0">
+                                <li class="nav-item">
+                                    <a class="nav-link py-3 py-lg-2" href="index.html">Sub Menu 1</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link py-3 py-lg-2" href="index.html">Sub Menu 2</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link py-3 py-lg-2" href="index.html">Sub Menu 3</a>
+                                </li>
+                            </ul>
+                            <div class="navbar-nav  align-items-center">
+                                <div class="nav-item border-xs">
+                                    <a class="nav-link py-3 py-lg-2 pe-0" href="https://wa.me/6285316655882" target="_blank">Whatsapp Kami <img class="ms-1" src="./assets/images/icon/whatsapp-share-btn.svg" alt="Whatsapp"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- MAIN -->
+        <main class="non-holding">
+            <!-- SLIDER -->
+            <section class="slider">
+                <div class="slider-slick">
+                    <div>
+                        <a class="banner-link pb-0" tabindex="-1">
+                            <div class="container-fluid text-center w-100 px-0">
+                                <div class="d-flex w-100 text-center align-content-end justify-content-center">
+                                    <div class="col-12 mx-auto px-0 d-none d-md-block"><img class="img-fluid" src="./assets/images/banner/banner.png" alt="Contoh banner"></div>
+                                    <div class="col-12 mx-auto px-0 d-block d-md-none"><img class="img-fluid" src="./assets/images/banner/m-banner.png" alt="Solusi praktis bertransaksi"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="banner-link pb-0" target="_blank" href="index.html" style="background-color:#ffa825; background:url() #ffa825 center center repeat-x; background-size:contain;" tabindex="-1">
+                            <div class="container-fluid text-center w-100 px-0">
+                                <div class="d-flex w-100 text-center align-content-end justify-content-center">
+                                    <img src="./assets/images/banner/banner2.png" class="w-100 mx-auto d-md-block d-none" style="max-width:initial;" alt="contoh banner">
+                                    <img src="./assets/images/banner/m-banner-2.png" class="w-100 mx-auto d-md-none d-block" style="max-width:initial;" alt="contoh banner">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="alia-feature py-lg-5 py-lg-3 py-md-3 py-3 mt-lg-5 mt-md-5 mt-3" style="min-height: 550px;">
+                <div class="container">
+                    <div class="row position-relative">
+                        <div class="col offset-md-6">
+                            <p class="lead business-color small-title mb-lg-3 mb-2">MENGAPA HARUS ALIA TOUR</p>
+                            <h2 class="sub-heading mb-4 fw-normal">Umroh, Haji dan Wisata Halal semakin Mudah &amp; aman</h2>
+                            <div class="text-start">
+                                <p class="text-grey lh-base fs-5">
+                                    ALIA TOUR merupakan perusahaan swasta nasional yang bergerak di bidang Tour dan Travel. Perusahaan ini didirikan pada tahun 2015 dengan nama awal PT. Hijrah Mulai Bersatu
+                                </p>
+                                <a href="about.html" class="btn btn-pill">Mengapa Harus ALIA TOUR</a>
+                            </div>
+                            <img src="./assets/images/banner/mobile-banner.png" class="img-fluid img-feature w-100 pt-0 pt-lg-4 pt-md-4" alt="Alia Tour">
+                            <!-- <div class="accordion accordion-flush" id="aliaFeature">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="alia-heading-1">
+                                        <a class="accordion-button text-decoration-none fw-600 fs-5 px-0 " type="button" data-bs-toggle="collapse" data-bs-target="#jago-collapse-1" aria-expanded="true" aria-controls="jago-collapse-1">
+                                            40 Kantong Jago = 40 rekening                                    
+                                        </a>
+                                    </h2>
+                                    <div id="jago-collapse-1" class="accordion-collapse collapse show" aria-labelledby="jago-heading-1" data-bs-parent="#jagoFeature">
+                                        <div class="accordion-body px-0 pt-0 text-center">
+                                            <div class="text-start">
+                                                <p class="text-grey lh-base fs-5">
+                                                    Bisa buat 40 rekening untuk memisahkan berbagai kebutuhan keuangan di satu aplikasi, tanpa admin bulanan.
+                                                </p>
+                                                <a href="https://www.jago.com/id/jago/digital/pocket/saving-and-spending" class="btn btn-pill">Mengapa Harus ALIA TOUR</a>
+                                            </div>
+                                            <img src="./assets/images/banner/mobile-banner.png" class="img-fluid img-feature w-100 pt-0 pt-lg-4 pt-md-4" alt="Jago Pocket">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>  
+            <section class="alia-ecosystem py-5" style="min-height: 450px;">
+                <div class="container">
+                    <div class="row position-relative">
+                        <div class="col-lg-6 col-md-12 col-12">
+                            <p class="lead business-color small-title mb-lg-3 mb-2">PROMO UMROH & HAJI  RAME RAME BAYAR SUKA SUKA</p>
+                            <h2 class="sub-heading mb-4 fw-normal">Tidak perlu bingung dan risau,sebab layanan terbaru ini sangat memudahkan calon jamaah ALIA TOUR yang memiliki keinginan untuk  menunaikan Ibadah Haji dan Umroh</h2>
+                        </div>
+                        <div class="text-start">
+                            <a href="index.html" class="btn btn-pill">Selengkapnya</a>
+                        </div>
+                        <img src="./assets/images/banner/mobile-banner.png" class="img-fluid img-ecosystem" alt="Alia Tour">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- FOOTER -->
+        <footer class="wrap-flex pt-4 border-top">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a href="#" class="ps-2 pe-3 mb-md-0 me-0 me-md-4 text-muted text-decoration-none lh-1">
+                        <img class="logo-dark mt-2 d-none d-xl-block" src="./assets/images/brand-logo.png" alt="jago" style="max-height: 50px;">
+                        <img class="logo-dark my-1 d-xl-none" src="./assets/images/brand-logo.png" alt="jago" style="max-height: 32px;">
+                    </a>
+                    <ul class="col nav list-unstyled d-flex justify-content-end justify-content-md-start text-muted">
+                        <li><a class="px-2 px-md-3" target="_blank" href="https://www.instagram.com"><img class="" src="../assets/images/icon/instagram.svg" alt="Instagram"></a></li>
+                        <li><a class="px-2 px-md-3" target="_blank" href="https://twitter.com"><img class="" src="../assets/images/icon/twitter.svg" alt="Twitter"></a></li>
+                        <li><a class="px-2 px-md-3" target="_blank" href="https://www.youtube.com"><img class="" src="../assets/images/icon/youtube.svg" alt="Youtube"></a></li>
+                        <li><a class="px-2 px-md-3" target="_blank" href="https://www.facebook.com"><img class="" src="../assets/images/icon/facebook.svg" alt="Facebook"></a></li>
+                    </ul>
+                    <ul class="nav list-unstyled d-none d-md-flex">
+                        <li class="ms-3"><a class="text-muted" target="_blank" href="https://apps.apple.com"><img class="download_app" src="../assets/images/icon/app-store.svg" alt="App Store"></a></li>
+                        <li class="ms-3"><a class="text-muted" target="_blank" href="https://play.google.com"><img class="download_app" src="../assets/images/icon/play-store.svg" alt="Play Store"></a></li>
+                    </ul>
+                </div>
+                <div class="d-flex flex-column flex-md-row align-items-left align-items-md-center justify-content-md-between border-bottom pt-4 pb-3">
+                    <ul class="nav w-100 d-flex flex-nowrap mslider-wrapper" style="overflow:auto !important;">
+                        <li class="nav-item mslider-item active me-2">
+                            <a href="index.html" class="nav-link px-2"><img class="logo-dark home my-1" src="https://www.jago.com/images/icon/home.svg" alt="Jago"></a>
+                        </li>
+                        <li class="nav-item mslider-item mx-2"><a href="index.html" class="nav-link text-nowrap px-2">Menu 1</a></li>
+                        <li class="nav-item mslider-item mx-2"><a href="index.html" class="nav-link text-nowrap px-2">Menu 2</a></li>
+                        <li class="nav-item mslider-item mx-2"><a href="index.html" class="nav-link text-nowrap px-2">Menu 3</a></li>
+                        <li class="nav-item mslider-item mx-2"><a href="index.html" class="nav-link text-nowrap px-2">Menu 4</a></li>
+                    </ul>
+                </div>
+                <div class="site-map triangle jago my-3">
+                    <div class="row mb-md-5 d-sm-unset">
+                        <div class="col-6 col-md-4 float-sm-start">
+                            <div class="d-flex align-items-start flex-column mb-3 h-100">
+                                <div class="mb-auto px-2">
+                                    <a href="index.html">Menu 1</a>
+                                    <a href="index.html">Menu 2</a>
+                                    <a href="index.html">Menu 3</a>
+                                    <a href="index.html">Menu 4</a>
+                                </div>
+                                <div class="px-2">
+                                    <a href="index.html">Kebijakan Privasi</a>
+                                    <a href="index.html">Syarat dan Ketentuan</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 pt-3 pt-md-0 float-sm-end order-md-last ps-md-4">
+                            <div class="px-2">
+                                <h6>MENU FITUR 2</h6>
+                                <a href="index.html">Menu Tambahan 1</a>
+                                <a href="index.html">Menu Tambahan 2</a>
+                                <a href="index.html">Menu Tambahan 3</a>
+                                <a href="index.html">Menu Tambahan 4</a>
+                                <a href="index.html">Menu Tambahan 5</a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 pt-3 pt-md-0 d-inline-block">
+                            <div class="px-2">
+                                <h6>MENU FITUR 1</h6>
+                                <a href="index.html">Menu Tambahan 1</a>
+                                <a href="index.html">Menu Tambahan 2</a>
+                                <a href="index.html">Menu Tambahan 3</a>
+                                <a href="index.html">Menu Tambahan 4</a>
+                                <a href="index.html">Menu Tambahan 5</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="d-flex align-items-center justify-content-between alert alert-warning text-dark mt-2 mb-4">
+                    <span><b>FITUR FOOTER</b> ini untuk fitur footer sliahkan sesuaikan dengan kebutuhan konten</span>
+                    <!-- <img src="" alt="Jago Whistle"> -->
+                </div>
+            </div>
+            <div class="border-top">
+                <div class="container">
+                    <div class="d-flex flex-column flex-md-row align-items-left align-items-md-center small text-muted py-3">
+                        <div class="text-left text-nowrap my-2 my-md-0">
+                            <!-- <img class="nav-item me-3" style="height:32px;" src="" alt="LPS"> -->
+                        </div>
+                        <small>Nama perusahan dan keterangan lainnya untuk ditampilkan di bottom footer</small>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider-slick').slick({
+                slidesToScroll: 1,
+                focusOnSelect: true,
+                dots: true,
+                infinite: true,
+                arrows: false,
+                autoplay: false,
+            });
+        });
+    </script>
+</body>
+</html>
